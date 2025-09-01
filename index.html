@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruleta de Participantes</title>
+    <style>
+        #wheelCanvas {
+            border: 2px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+        #winner {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        #spinButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="wheelCanvas" width="500" height="500"></canvas>
+    <button id="spinButton">Girar</button>
+    <div id="winner"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
