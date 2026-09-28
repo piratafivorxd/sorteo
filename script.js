@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 //const participants = [  "DORIS","EVELYN","CARMYN","JULIA","KENYI","ALEJANDRA","AGUSTINA","JUANCHO"];
 const participants = [ "YONEL","GIAN"];
 
-const winners = ["GIAN" , "YONEL","GIAN" ];
+const winners = [ "YONEL","GIAN","YONEL" ];
 let spinCount = 0;
 let isSpinning = false;
 
