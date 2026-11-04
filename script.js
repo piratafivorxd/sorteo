@@ -1,9 +1,9 @@
 const canvas = document.getElementById('wheelCanvas');
 const ctx = canvas.getContext('2d');
 //const participants = [  "DORIS","EVELYN","CARMYN","JULIA","KENYI","ALEJANDRA","AGUSTINA","JUANCHO"];
-const participants = [ "WILLY","GUADALUPE","MELLIZA","AGUSTINA"];
+const participants = [ "WILLY","GUADALUPE","MELLIZA"];
 
-const winners = [ "WILLY","MELLIZA","AGUSTINA" ];
+const winners = [ "GUADALUPE","MELLIZA","WILLY" ];
 let spinCount = 0;
 let isSpinning = false;
 
